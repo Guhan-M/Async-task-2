@@ -1,0 +1,48 @@
+
+body{
+    display:flex;
+    flex-direction: column;
+     align-items: center;
+}
+
+.card{
+    margin: 25px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    flex-wrap: wrap;
+  
+}
+.card-body{
+   
+    background-color: rgb(254, 255, 216)
+}
+
+.input{
+    margin: 30px;
+    width:30%;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 8px;
+    height:60px
+}
+.input:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img{
+    width: 10%;
+    text-align: center;
+}
+.card-text{
+    font-size: large;
+    margin-top: 15px;
+}
+.card-text1{
+    margin: 25px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    flex-wrap: wrap;
+    color: red;
+    font-size: x-large;
+}
